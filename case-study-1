@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered CRM — Case Study · Rupali</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="components.js" defer></script>
+  <script src="main.js" defer></script>
+  <style>
+    body { padding-top: 70px; }
+    .cs-img-placeholder {
+      width: 100%; aspect-ratio: 16/9;
+      background: var(--panel);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--light-mid);
+      margin: 48px 0;
+    }
+    .cs-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 40px 0; }
+    .cs-two-col .cs-img-placeholder { margin: 0; }
+    @media(max-width:768px) { .cs-two-col { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="cs-page-hero">
+  <div class="cs-page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&h=800&fit=crop&q=80');"></div>
+  <div class="cs-page-hero-content">
+    <p class="label">Product Design · Tech Startup · 2024</p>
+    <h1>AI-Powered CRM System</h1>
+    <p>Redesigning a complex enterprise CRM with AI integration to cut onboarding from 14 days to under 5 — and increase daily active usage by 3.4×.</p>
+  </div>
+</div>
+
+<!-- META STRIP -->
+<div class="cs-meta-strip">
+  <div class="cs-meta-item">
+    <p class="label">My Role</p>
+    <p>Lead Product Designer</p>
+  </div>
+  <div class="cs-meta-item">
+    <p class="label">Timeline</p>
+    <p>5 months · 2024</p>
+  </div>
+  <div class="cs-meta-item">
+    <p class="label">Team</p>
+    <p>2 designers, 4 engineers, 1 PM</p>
+  </div>
+  <div class="cs-meta-item">
+    <p class="label">Tools</p>
+    <p>Figma, Maze, Mixpanel</p>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="cs-content">
+
+  <div class="reveal">
+    <p class="label">Overview</p>
+    <h2>The Problem</h2>
+    <p>A rapidly scaling B2B SaaS company had built a powerful CRM — but their sales teams were abandoning it. Onboarding took up to 14 days. Support tickets were rising 40% quarter-over-quarter. The AI features meant to be their differentiator were largely invisible to users.</p>
+    <p>My mandate: redesign the system from a behavioral standpoint — not just visually, but architecturally — to reduce cognitive load and surface AI capabilities in ways that felt intuitive, not intrusive.</p>
+  </div>
+
+  <div class="cs-outcomes-grid reveal">
+    <div class="cs-outcome">
+      <div class="cs-outcome-val">62%</div>
+      <div class="cs-outcome-label">Faster Onboarding</div>
+    </div>
+    <div class="cs-outcome">
+      <div class="cs-outcome-val">3.4×</div>
+      <div class="cs-outcome-label">Daily Active Usage</div>
+    </div>
+    <div class="cs-outcome">
+      <div class="cs-outcome-val">91</div>
+      <div class="cs-outcome-label">NPS Score (was 34)</div>
+    </div>
+  </div>
+
+  <div class="reveal">
+    <p class="label">Research</p>
+    <h2>Understanding the Real Problem</h2>
+    <p>I conducted 18 contextual user interviews across 3 user segments: sales reps, team leads, and ops managers. Each had distinct mental models and pain points. The unifying thread: the system's information architecture matched how the engineers thought — not how salespeople worked.</p>
+  </div>
+
+  <div class="cs-callout reveal">
+    <p>"I'm not a bad salesperson. I'm just bad at navigating this system while I'm on a call."</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Research synthesis board — affinity mapping + journey map ]</div>
+
+  <div class="reveal">
+    <p class="label">Process</p>
+    <h2>Design Approach</h2>
+    <p>I applied a behavioral design lens: mapping every friction point to a cognitive principle — recall vs. recognition, decision fatigue, working memory overload. Then I redesigned the information hierarchy around sales reps' actual workflows, not the product team's mental model of those workflows.</p>
+    <p>AI features were repositioned from a "features tab" into contextual nudges embedded exactly where and when they were relevant — reducing the learning curve from "how do I use AI?" to "it's just part of how this works."</p>
+  </div>
+
+  <div class="cs-two-col reveal">
+    <div class="cs-img-placeholder" style="min-height:240px;">[ Before: Complex navigation — 8 levels deep ]</div>
+    <div class="cs-img-placeholder" style="min-height:240px;">[ After: Context-first layout — 3 steps max ]</div>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ High-fidelity wireframes — key flows: lead entry, AI suggestion panel, pipeline view ]</div>
+
+  <div class="reveal">
+    <p class="label">Testing</p>
+    <h2>Validation & Iteration</h2>
+    <p>Three rounds of usability testing with Maze, followed by a 6-week beta with 120 users across 4 enterprise accounts. We measured task completion, time-on-task, error rate, and NPS after each iteration. Each round cut an average of 2.3 steps from the critical paths.</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Usability test session recordings — annotated key moments ]</div>
+
+  <div class="reveal">
+    <p class="label">Outcome</p>
+    <h2>Results</h2>
+    <p>At launch, the redesign achieved a 62% reduction in onboarding time (14 days → 5.3 days average). Daily active usage increased 3.4× over 90 days. NPS jumped from 34 to 91. The AI feature adoption rate went from 8% to 61%. The company used the redesign in their Series B fundraising deck.</p>
+  </div>
+
+  <div class="cs-tags reveal">
+    <span class="cs-tag-pill">Behavioral UX</span>
+    <span class="cs-tag-pill">Enterprise Design</span>
+    <span class="cs-tag-pill">AI Integration</span>
+    <span class="cs-tag-pill">Information Architecture</span>
+    <span class="cs-tag-pill">Figma</span>
+    <span class="cs-tag-pill">Usability Testing</span>
+  </div>
+
+</div>
+
+<!-- NEXT SECTION -->
+<div class="cs-next-section">
+  <h3>Next Case Study</h3>
+  <p>Behavioral UX Framework — reducing technostress at enterprise scale</p>
+  <a href="case-study-2.html" class="btn btn-accent">View Next Case Study</a>
+</div>
+
+</body>
+</html>
