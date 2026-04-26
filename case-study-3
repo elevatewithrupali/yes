@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workflow Optimization — Case Study · Rupali</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="components.js" defer></script>
+  <script src="main.js" defer></script>
+  <style>
+    body { padding-top: 70px; }
+    .cs-img-placeholder {
+      width: 100%; aspect-ratio: 16/9;
+      background: var(--panel);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--light-mid);
+      margin: 48px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="cs-page-hero">
+  <div class="cs-page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&h=800&fit=crop&q=80');"></div>
+  <div class="cs-page-hero-content">
+    <p class="label">Systems Design · SaaS Company · 2023</p>
+    <h1>Workflow Optimization</h1>
+    <p>Cutting a 14-step approval process to 4 — enabling a 6-person ops team to handle 3× their previous volume without additional headcount.</p>
+  </div>
+</div>
+
+<div class="cs-meta-strip">
+  <div class="cs-meta-item"><p class="label">My Role</p><p>Systems Designer</p></div>
+  <div class="cs-meta-item"><p class="label">Timeline</p><p>3 months · 2023</p></div>
+  <div class="cs-meta-item"><p class="label">Team</p><p>1 designer (me), 3 engineers</p></div>
+  <div class="cs-meta-item"><p class="label">Tools</p><p>Figma, Miro, Airtable</p></div>
+</div>
+
+<div class="cs-content">
+
+  <div class="reveal">
+    <p class="label">Overview</p>
+    <h2>The Problem</h2>
+    <p>A growing SaaS operations team was spending 60% of their day managing a document approval workflow that touched 6 different systems and required 14 discrete steps — many of which existed purely as legacy process artifacts with no functional purpose.</p>
+    <p>My approach: map the entire workflow against actual business logic, identify which steps created value and which created only friction, then redesign the flow around outcomes — not inherited process.</p>
+  </div>
+
+  <div class="cs-outcomes-grid reveal">
+    <div class="cs-outcome"><div class="cs-outcome-val">71%</div><div class="cs-outcome-label">Time Saved Per Document</div></div>
+    <div class="cs-outcome"><div class="cs-outcome-val">3×</div><div class="cs-outcome-label">Team Throughput</div></div>
+    <div class="cs-outcome"><div class="cs-outcome-val">0</div><div class="cs-outcome-label">Rework Loops Remaining</div></div>
+  </div>
+
+  <div class="cs-callout reveal">
+    <p>"We went from dreading Mondays to actually being ahead by Thursday. That's never happened before."</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Process flow map — 14 steps annotated with friction costs ]</div>
+
+  <div class="reveal">
+    <p class="label">Process</p>
+    <h2>Mapping, Cutting, Redesigning</h2>
+    <p>I ran a 2-day process mapping workshop with the team, documenting every step and its actual purpose. Of 14 steps, 7 were redundant or legacy. We collapsed the 7 remaining into 4 consolidated actions — each with clear ownership, automatic status updates, and exception handling built in.</p>
+    <p>The redesigned workflow was implemented in Airtable with a Figma-designed UI layer — keeping the backend familiar while making the user experience dramatically simpler.</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Redesigned workflow — 4 steps with swimlane diagram ]</div>
+
+  <div class="cs-tags reveal">
+    <span class="cs-tag-pill">Process Design</span>
+    <span class="cs-tag-pill">Systems Thinking</span>
+    <span class="cs-tag-pill">SaaS Operations</span>
+    <span class="cs-tag-pill">Airtable</span>
+    <span class="cs-tag-pill">Figma</span>
+  </div>
+
+</div>
+
+<div class="cs-next-section">
+  <h3>Next Case Study</h3>
+  <p>Mobile Experience Design — fintech redesign from the ground up</p>
+  <a href="case-study-4.html" class="btn btn-accent">View Next Case Study</a>
+</div>
+
+</body>
+</html>
