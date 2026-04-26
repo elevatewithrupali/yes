@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupali — Sr. Product Designer & Communication Coach</title>
+  <meta name="description" content="Senior Product Designer & Business Communication Coach. Designing systems that people can actually think within. Coaching high-performers to speak with precision.">
+  <link rel="stylesheet" href="style.css">
+  <script src="components.js" defer></script>
+  <script src="main.js" defer></script>
+  <style>
+    /* Page-specific overrides */
+    body { padding-top: 70px; }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+
+    <!-- Left: Image -->
+    <div class="hero-image-wrap reveal">
+      <div class="hero-image-frame">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&h=900&fit=crop&q=85" alt="Rupali — professional headshot 1" class="active">
+        <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=700&h=900&fit=crop&q=85" alt="Rupali — professional headshot 2">
+        <img src="https://images.unsplash.com/photo-1598550880863-4e8aa3d0edb4?w=700&h=900&fit=crop&q=85" alt="Rupali — professional headshot 3">
+      </div>
+      <div class="hero-image-dots">
+        <button class="active" aria-label="Photo 1"></button>
+        <button aria-label="Photo 2"></button>
+        <button aria-label="Photo 3"></button>
+      </div>
+      <div class="hero-social">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Dribbble">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Content -->
+    <div class="hero-content">
+      <p class="hero-title">Sr. Product Designer · Communication Coach</p>
+      <h1 class="hero-hi reveal reveal-delay-1">Hi, I am</h1>
+      <h1 class="hero-name reveal reveal-delay-2">Rupali</h1>
+      <p class="hero-bio reveal reveal-delay-3">
+        I design systems that people can actually think and work within. I also coach high-performers to communicate with precision and confidence under pressure — from boardroom strategy to IELTS performance.
+      </p>
+      <blockquote class="hero-quote reveal reveal-delay-3">
+        <p>"Clarity of thought precedes clarity of design."</p>
+      </blockquote>
+      <div class="hero-ctas reveal reveal-delay-3">
+        <a href="#work" class="btn btn-primary">
+          View Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#publications" class="btn btn-outline">Publications</a>
+        <a href="#services" class="btn btn-ghost">Services</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════ WORK / CASE STUDIES ═══════════════════ -->
+<section id="work" class="section">
+  <div class="portfolio-intro">
+    <div class="section-header" style="margin-bottom:0;">
+      <p class="label">Portfolio</p>
+      <h2>Case Studies</h2>
+      <p>Enterprise-grade UX challenges, dissected and designed with intention.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:16px;">
+      <div class="portfolio-counter">
+        <span id="cs-cur">01</span> / <span id="cs-total">04</span>
+      </div>
+      <div class="portfolio-nav">
+        <button id="cs-prev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        </button>
+        <button id="cs-next" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-studies-track-wrap">
+    <div class="case-studies-track">
+
+      <!-- Card 1 -->
+      <article class="case-study-card reveal">
+        <div class="case-study-img">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&h=560&fit=crop&q=80" alt="AI-Powered CRM System">
+          <span class="cs-tag">Product Design</span>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-meta">
+            <span class="cs-company">Tech Startup · 2024</span>
+          </div>
+          <h3>AI-Powered CRM System</h3>
+          <p>Redesigned the entire workflow for an enterprise CRM with AI integration — reducing onboarding friction and boosting daily active usage significantly.</p>
+          <div class="cs-metrics">
+            <div>
+              <div class="cs-metric-val">62%</div>
+              <div class="cs-metric-label">Faster Onboarding</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">3.4×</div>
+              <div class="cs-metric-label">DAU Increase</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">91</div>
+              <div class="cs-metric-label">NPS Score</div>
+            </div>
+          </div>
+          <a href="case-study-1.html" class="btn btn-primary">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="case-study-card reveal reveal-delay-1">
+        <div class="case-study-img">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&h=560&fit=crop&q=80" alt="Behavioral UX Framework">
+          <span class="cs-tag">UX Research</span>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-meta">
+            <span class="cs-company">Enterprise · 2024</span>
+          </div>
+          <h3>Behavioral UX Framework</h3>
+          <p>Developed a behavioral design framework to reduce technostress in a 5,000-employee enterprise, rethinking interaction patterns at their cognitive root.</p>
+          <div class="cs-metrics">
+            <div>
+              <div class="cs-metric-val">48%</div>
+              <div class="cs-metric-label">Error Reduction</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">2.1×</div>
+              <div class="cs-metric-label">Task Completion</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">40%</div>
+              <div class="cs-metric-label">Stress Decrease</div>
+            </div>
+          </div>
+          <a href="case-study-2.html" class="btn btn-primary">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="case-study-card reveal reveal-delay-2">
+        <div class="case-study-img">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&h=560&fit=crop&q=80" alt="Workflow Optimization">
+          <span class="cs-tag">Systems Design</span>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-meta">
+            <span class="cs-company">SaaS Company · 2023</span>
+          </div>
+          <h3>Workflow Optimization</h3>
+          <p>Streamlined a 14-step approval workflow to 4 steps, eliminating friction points and enabling a 6-person ops team to manage 3× the volume.</p>
+          <div class="cs-metrics">
+            <div>
+              <div class="cs-metric-val">71%</div>
+              <div class="cs-metric-label">Time Saved</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">3×</div>
+              <div class="cs-metric-label">Team Capacity</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">0</div>
+              <div class="cs-metric-label">Rework Loops</div>
+            </div>
+          </div>
+          <a href="case-study-3.html" class="btn btn-primary">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="case-study-card reveal reveal-delay-3">
+        <div class="case-study-img">
+          <img src="https://images.unsplash.com/photo-1512941691920-25bda36dc643?w=900&h=560&fit=crop&q=80" alt="Mobile Experience Design">
+          <span class="cs-tag">Mobile Design</span>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-meta">
+            <span class="cs-company">Fintech · 2023</span>
+          </div>
+          <h3>Mobile Experience Design</h3>
+          <p>Redesigned a fintech mobile banking app from the ground up — applying behavioral economics principles to build trust and drive engagement.</p>
+          <div class="cs-metrics">
+            <div>
+              <div class="cs-metric-val">4.8★</div>
+              <div class="cs-metric-label">App Store Rating</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">38%</div>
+              <div class="cs-metric-label">Retention Lift</div>
+            </div>
+            <div>
+              <div class="cs-metric-val">220K</div>
+              <div class="cs-metric-label">New Users Y1</div>
+            </div>
+          </div>
+          <a href="case-study-4.html" class="btn btn-primary">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PUBLICATIONS ═══════════════════ -->
+<section id="publications" class="section" style="background:var(--cream);">
+  <div class="section-header">
+    <p class="label">Writing</p>
+    <h2>Publications</h2>
+    <p>Thoughts on product design, cognitive systems, and the science of high-stakes communication.</p>
+  </div>
+
+  <div class="pub-slider-wrap">
+    <div class="pub-track">
+
+      <div class="pub-card reveal">
+        <div class="pub-card-accent"></div>
+        <div class="pub-outlet">UX Magazine</div>
+        <h4>The Future of Behavioral UX in Enterprise Software</h4>
+        <p>How behavioral psychology is quietly reshaping the design of enterprise systems — and why most teams are still missing it.</p>
+        <div class="pub-date">March 2024</div>
+        <a href="https://uxmag.com" target="_blank" rel="noopener" class="pub-link">
+          Read Article
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-1">
+        <div class="pub-card-accent"></div>
+        <div class="pub-outlet">Design Observer</div>
+        <h4>Reducing Technostress Through Thoughtful Design</h4>
+        <p>Practical strategies for designing interfaces that reduce cognitive overload and help users stay in flow.</p>
+        <div class="pub-date">February 2024</div>
+        <a href="https://designobserver.com" target="_blank" rel="noopener" class="pub-link">
+          Read Article
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-2">
+        <div class="pub-card-accent"></div>
+        <div class="pub-outlet">Harvard Business Review</div>
+        <h4>Communication Under Pressure: A Framework</h4>
+        <p>How to maintain clarity and executive presence when the stakes are highest — a structured framework for high-performers.</p>
+        <div class="pub-date">January 2024</div>
+        <a href="https://hbr.org" target="_blank" rel="noopener" class="pub-link">
+          Read Article
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-3">
+        <div class="pub-card-accent"></div>
+        <div class="pub-outlet">Interaction Design Foundation</div>
+        <h4>Workflow Design for AI-Powered Systems</h4>
+        <p>How to design intuitive, user-friendly workflows for products powered by machine learning and generative AI.</p>
+        <div class="pub-date">December 2023</div>
+        <a href="https://interaction-design.org" target="_blank" rel="noopener" class="pub-link">
+          Read Article
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-3">
+        <div class="pub-card-accent"></div>
+        <div class="pub-outlet">Product School</div>
+        <h4>The Psychology of Product Onboarding</h4>
+        <p>Using behavioral science to design onboarding experiences that stick — from first touch to power user.</p>
+        <div class="pub-date">November 2023</div>
+        <a href="https://productschool.com" target="_blank" rel="noopener" class="pub-link">
+          Read Article
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="pub-controls">
+    <button id="pub-prev" aria-label="Previous publication">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+    </button>
+    <button id="pub-next" aria-label="Next publication">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- ═══════════════════ SERVICES ═══════════════════ -->
+<section id="services" class="section">
+  <div class="section-header">
+    <p class="label">What I Do</p>
+    <h2>Services</h2>
+    <p>Two disciplines, one philosophy: reduce friction and amplify clarity.</p>
+  </div>
+
+  <div class="services-grid">
+
+    <!-- Service 1 -->
+    <div class="service-card reveal">
+      <div class="service-number">01</div>
+      <p class="label">Design</p>
+      <h3>Product & Experience Design</h3>
+      <p class="service-tagline">Designing systems that people can actually think and work within.</p>
+      <div class="service-includes">
+        <h5>What's Included</h5>
+        <ul>
+          <li>UX / Product consulting</li>
+          <li>Workflow design (CRM, AI systems)</li>
+          <li>Reducing friction + technostress</li>
+          <li>Behavioral UX research</li>
+          <li>System design &amp; documentation</li>
+          <li>30-min free discovery call</li>
+        </ul>
+      </div>
+      <div class="ideal-tags">
+        <span class="ideal-tag">Startups</span>
+        <span class="ideal-tag">Y Combinator</span>
+        <span class="ideal-tag">Enterprise</span>
+        <span class="ideal-tag">Contract</span>
+      </div>
+      <div class="service-ctas">
+        <button class="btn btn-primary" data-service-cta="product-design" data-msg="I'm interested in Product & Experience Design services. I'd love to discuss my project.">Inquire Now</button>
+        <a href="#contact" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-number">02</div>
+      <p class="label">Communication</p>
+      <h3>Cognitive & Behavioral Communication</h3>
+      <p class="service-tagline">Structured thinking. Precision speaking. High-stakes performance.</p>
+      <div class="service-includes">
+        <h5>What's Included</h5>
+        <ul>
+          <li>Business communication &amp; exec presence</li>
+          <li>On-the-spot articulation training</li>
+          <li>Interview performance coaching</li>
+          <li>IELTS / CELPIP performance training</li>
+          <li>Structured thinking frameworks</li>
+          <li>30-min free discovery call</li>
+        </ul>
+      </div>
+      <div class="ideal-tags">
+        <span class="ideal-tag">High-Performers</span>
+        <span class="ideal-tag">Executives</span>
+        <span class="ideal-tag">Interview Candidates</span>
+        <span class="ideal-tag">IELTS / CELPIP</span>
+      </div>
+      <div class="service-ctas">
+        <button class="btn btn-primary" data-service-cta="communication" data-msg="I'm interested in Cognitive & Behavioral Communication coaching. I'd love to discuss my goals.">Inquire Now</button>
+        <a href="#contact" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="service-discovery reveal">
+    <p>Both services include a 30-minute free discovery call.</p>
+    <span>No commitment. Just clarity on whether we're a good fit.</span>
+    <br><br>
+    <a href="#contact" class="btn btn-accent">Book Your Free Call</a>
+  </div>
+</section>
+
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+<section id="contact" class="section" style="background:var(--cream);">
+  <div class="contact-grid">
+
+    <div class="contact-info reveal">
+      <p class="label">Get In Touch</p>
+      <h2>Let's Work Together</h2>
+      <p>Have a project in mind or want to explore how I can help? Fill in the form and I'll respond within 24 hours — along with a calendar link to schedule your free discovery call.</p>
+
+      <div class="contact-item" style="margin-top:40px;">
+        <p class="label">Email</p>
+        <a href="mailto:hello@rupali.design">hello@rupali.design</a>
+      </div>
+      <div class="contact-item">
+        <p class="label">Phone</p>
+        <a href="tel:+12345678900">+1 (234) 567-8900</a>
+      </div>
+      <div class="contact-item">
+        <p class="label">Location</p>
+        <p>Available remote &amp; in-person</p>
+      </div>
+
+      <div class="contact-social">
+        <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+        <a href="#" aria-label="Dribbble"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg></a>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap reveal reveal-delay-1">
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Full Name *</label>
+            <input type="text" id="cf-name" name="name" placeholder="Jane Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email *</label>
+            <input type="email" id="cf-email" name="email" placeholder="jane@company.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cf-phone">Mobile</label>
+          <input type="tel" id="cf-phone" name="phone" placeholder="+1 (234) 567-8900">
+        </div>
+        <div class="form-group">
+          <label for="cf-service">Service</label>
+          <select id="cf-service" name="service">
+            <option value="">Select a service...</option>
+            <option value="product-design">Product &amp; Experience Design</option>
+            <option value="communication">Cognitive &amp; Behavioral Communication</option>
+            <option value="shop">Shop / Digital Products</option>
+            <option value="other">Other / Custom</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cf-message">Message *</label>
+          <textarea id="cf-message" name="message" placeholder="Tell me about your project, goals, or what you're working through..." required></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
