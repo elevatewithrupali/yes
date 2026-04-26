@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — Rupali</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="components.js" defer></script>
+  <script src="main.js" defer></script>
+  <style>
+    body { padding-top: 70px; }
+    .shop-section { padding: 80px 5% 120px; }
+  </style>
+</head>
+<body>
+
+<div class="page-hero">
+  <p class="label">Digital Products</p>
+  <h1>Shop</h1>
+  <p>Frameworks, guides, templates, and training systems — designed to help you think clearer and communicate better.</p>
+</div>
+
+<div class="shop-section">
+
+  <!-- TABS -->
+  <div class="shop-tabs">
+    <button class="tab-btn active" data-tab="communication">Communication Guides</button>
+    <button class="tab-btn" data-tab="interview">Interview Systems</button>
+    <button class="tab-btn" data-tab="exam">Exam Prep</button>
+    <button class="tab-btn" data-tab="cognitive">Cognitive Training</button>
+    <button class="tab-btn" data-tab="design">Design Courses</button>
+    <button class="tab-btn" data-tab="templates">Digital Templates</button>
+    <button class="tab-btn" data-tab="free">Free Resources</button>
+  </div>
+
+  <!-- TAB: Communication Guides -->
+  <div class="tab-content active" id="tab-communication">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge">Bestseller</div>
+        <div class="shop-card-img" style="background:var(--accent-light);">
+          <div class="shop-card-icon">💬</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Executive Presence Playbook</h4>
+          <p>A complete guide to commanding attention, building credibility, and influencing decisions in any room.</p>
+          <div class="shop-price">$49 <span>/ PDF + templates</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Executive Presence Playbook">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#F0EBF8;">
+          <div class="shop-card-icon">🎯</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>The Articulation System</h4>
+          <p>Think on your feet. A framework for structuring your thoughts instantly in high-pressure conversations.</p>
+          <div class="shop-price">$39 <span>/ PDF guide</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="The Articulation System">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-card-img" style="background:#EAF4F0;">
+          <div class="shop-card-icon">📋</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Meeting Mastery Guide</h4>
+          <p>Run better meetings. Speak with authority. Leave every conversation with outcomes.</p>
+          <div class="shop-price">$29 <span>/ PDF guide</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Meeting Mastery Guide">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Interview Systems -->
+  <div class="tab-content" id="tab-interview">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge">Top Rated</div>
+        <div class="shop-card-img" style="background:var(--accent-light);">
+          <div class="shop-card-icon">🏆</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>FAANG Interview Performance System</h4>
+          <p>A complete system for showing up at your best in product, design, and leadership interviews at top-tier companies.</p>
+          <div class="shop-price">$79 <span>/ Full system</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="FAANG Interview Performance System">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EEF2F8;">
+          <div class="shop-card-icon">💼</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Behavioral Interview Answer Bank</h4>
+          <p>50 structured answers to the most common behavioral questions. Adapt, own, and deliver.</p>
+          <div class="shop-price">$49 <span>/ Answer bank</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Behavioral Interview Answer Bank">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-card-img" style="background:#F8EEF2;">
+          <div class="shop-card-icon">✍️</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>UX Portfolio Review Checklist</h4>
+          <p>The exact criteria senior design hiring managers use — and how to make sure your portfolio nails every one.</p>
+          <div class="shop-price">$19 <span>/ Checklist PDF</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="UX Portfolio Review Checklist">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Exam Prep -->
+  <div class="tab-content" id="tab-exam">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge">New</div>
+        <div class="shop-card-img" style="background:var(--accent-light);">
+          <div class="shop-card-icon">🌐</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>IELTS Speaking Performance Pack</h4>
+          <p>Not tutoring — performance training. Structured techniques to speak fluently and score band 7+ under pressure.</p>
+          <div class="shop-price">$59 <span>/ Full pack</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="IELTS Speaking Performance Pack">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EAF4F0;">
+          <div class="shop-card-icon">🍁</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>CELPIP Speaking Strategy Guide</h4>
+          <p>Master all 8 CELPIP speaking tasks with structured frameworks — designed around how the exam actually scores you.</p>
+          <div class="shop-price">$49 <span>/ Guide + practice tasks</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="CELPIP Speaking Strategy Guide">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Cognitive Training -->
+  <div class="tab-content" id="tab-cognitive">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-card-img" style="background:#F0EBF8;">
+          <div class="shop-card-icon">🧠</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Structured Thinking Framework</h4>
+          <p>Train your brain to organize thoughts faster, reason more clearly, and communicate with precision under pressure.</p>
+          <div class="shop-price">$45 <span>/ Workbook PDF</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Structured Thinking Framework">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EEF2F8;">
+          <div class="shop-card-icon">⚡</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Decision-Making Under Pressure</h4>
+          <p>Cognitive tools for making better decisions faster — built for high-stakes professional environments.</p>
+          <div class="shop-price">$35 <span>/ PDF guide</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Decision-Making Under Pressure">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Design Courses -->
+  <div class="tab-content" id="tab-design">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge">Flagship</div>
+        <div class="shop-card-img" style="background:var(--accent-light);">
+          <div class="shop-card-icon">🎨</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Behavioral UX Masterclass</h4>
+          <p>A complete course on applying behavioral economics and cognitive science to product design. 6 modules, 30+ lessons.</p>
+          <div class="shop-price">$199 <span>/ Full course</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Behavioral UX Masterclass">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Lifetime access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EAF4F0;">
+          <div class="shop-card-icon">🔧</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Workflow Design for AI Systems</h4>
+          <p>Practical course on designing intuitive workflows for AI-powered products. Learn to reduce complexity without losing power.</p>
+          <div class="shop-price">$149 <span>/ Full course</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Workflow Design for AI Systems">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Lifetime access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-card-img" style="background:#F8EEF2;">
+          <div class="shop-card-icon">📱</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>UX Case Study Accelerator</h4>
+          <p>How to write case studies that get you hired at top companies — with real frameworks and annotated examples.</p>
+          <div class="shop-price">$89 <span>/ Course + templates</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="UX Case Study Accelerator">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Lifetime access</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Digital Templates -->
+  <div class="tab-content" id="tab-templates">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-card-img" style="background:var(--accent-light);">
+          <div class="shop-card-icon">📄</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>UX Case Study Figma Template</h4>
+          <p>A polished, recruiter-approved Figma template for presenting your UX work professionally.</p>
+          <div class="shop-price">$29 <span>/ Figma file</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="UX Case Study Figma Template">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EEF2F8;">
+          <div class="shop-card-icon">🗂️</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Notion Portfolio OS</h4>
+          <p>A complete Notion workspace for tracking projects, documenting research, and building your professional brand.</p>
+          <div class="shop-price">$25 <span>/ Notion template</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Notion Portfolio OS">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-card-img" style="background:#EAF4F0;">
+          <div class="shop-card-icon">📊</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>Stakeholder Presentation Kit</h4>
+          <p>10 ready-to-use slide templates for presenting design work to executive stakeholders — clear, compelling, professional.</p>
+          <div class="shop-price">$35 <span>/ Figma + PDF</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Stakeholder Presentation Kit">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant access</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB: Free Resources -->
+  <div class="tab-content" id="tab-free">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge" style="background:var(--charcoal);">Free</div>
+        <div class="shop-card-img" style="background:var(--cream);">
+          <div class="shop-card-icon">🎁</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>5 UX Design Principles Cheatsheet</h4>
+          <p>A one-page reference card with the 5 cognitive principles every product designer should know by heart.</p>
+          <div class="shop-price">Free</div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-outline" data-shop-product="5 UX Design Principles Cheatsheet">Download Free</button>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-badge" style="background:var(--charcoal);">Free</div>
+        <div class="shop-card-img" style="background:var(--cream);">
+          <div class="shop-card-icon">📝</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>STAR Method Worksheet</h4>
+          <p>A fillable PDF for structuring your behavioral interview answers using the STAR method — clearly and confidently.</p>
+          <div class="shop-price">Free</div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-outline" data-shop-product="STAR Method Worksheet">Download Free</button>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-badge" style="background:var(--charcoal);">Free</div>
+        <div class="shop-card-img" style="background:var(--cream);">
+          <div class="shop-card-icon">🔍</div>
+        </div>
+        <div class="shop-card-body">
+          <h4>UX Audit Template</h4>
+          <p>A starter template for conducting a heuristic UX audit on any digital product. 10 dimensions, clear scoring rubric.</p>
+          <div class="shop-price">Free</div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-outline" data-shop-product="UX Audit Template">Download Free</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
