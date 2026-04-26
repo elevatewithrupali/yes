@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Behavioral UX Framework — Case Study · Rupali</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="components.js" defer></script>
+  <script src="main.js" defer></script>
+  <style>
+    body { padding-top: 70px; }
+    .cs-img-placeholder {
+      width: 100%; aspect-ratio: 16/9;
+      background: var(--panel);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--light-mid);
+      margin: 48px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="cs-page-hero">
+  <div class="cs-page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1400&h=800&fit=crop&q=80');"></div>
+  <div class="cs-page-hero-content">
+    <p class="label">UX Research · Enterprise · 2024</p>
+    <h1>Behavioral UX Framework</h1>
+    <p>Reducing technostress across a 5,000-person enterprise by rethinking interaction patterns at their cognitive root — not their surface.</p>
+  </div>
+</div>
+
+<div class="cs-meta-strip">
+  <div class="cs-meta-item"><p class="label">My Role</p><p>UX Research Lead</p></div>
+  <div class="cs-meta-item"><p class="label">Timeline</p><p>8 months · 2024</p></div>
+  <div class="cs-meta-item"><p class="label">Team</p><p>3 researchers, 2 designers, 1 PM</p></div>
+  <div class="cs-meta-item"><p class="label">Tools</p><p>Figma, Dovetail, Qualtrics</p></div>
+</div>
+
+<div class="cs-content">
+
+  <div class="reveal">
+    <p class="label">Overview</p>
+    <h2>The Problem</h2>
+    <p>A Fortune 500 company with 5,000+ employees was experiencing alarming rates of digital tool abandonment, IT ticket volume, and reported burnout linked to internal software. Exit interviews consistently cited "the systems" as a source of daily stress.</p>
+    <p>This wasn't a visual design problem. It was a behavioral systems problem — and no one had approached it that way yet.</p>
+  </div>
+
+  <div class="cs-outcomes-grid reveal">
+    <div class="cs-outcome"><div class="cs-outcome-val">48%</div><div class="cs-outcome-label">Error Rate Reduction</div></div>
+    <div class="cs-outcome"><div class="cs-outcome-val">2.1×</div><div class="cs-outcome-label">Task Completion</div></div>
+    <div class="cs-outcome"><div class="cs-outcome-val">40%</div><div class="cs-outcome-label">Stress Decrease (self-reported)</div></div>
+  </div>
+
+  <div class="reveal">
+    <p class="label">Research</p>
+    <h2>Diagnosing the Cognitive Load</h2>
+    <p>I designed and ran a mixed-methods research program: 24 contextual interviews, a 500-person survey using a validated technostress scale, and 40+ hours of observational sessions across 5 departments. The findings pointed to 4 core behavioral failure modes: decision overload, attention fragmentation, forced context-switching, and absent feedback loops.</p>
+  </div>
+
+  <div class="cs-callout reveal">
+    <p>"By 10am, I've already made 200 micro-decisions in three different systems. I'm exhausted before my real work starts."</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Behavioral failure mode map — 4 core patterns across 12 tools ]</div>
+
+  <div class="reveal">
+    <p class="label">Framework</p>
+    <h2>The Behavioral UX Framework</h2>
+    <p>I developed a proprietary evaluation and design framework with 5 dimensions: Cognitive Load Index, Decision Density, Feedback Quality, Context Coherence, and Recovery Cost. Each dimension had measurable criteria and corresponding design interventions.</p>
+    <p>The framework gave the internal design team a repeatable methodology — something they could apply to any new or existing tool without needing a behavioral researcher in the room.</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Framework diagram — 5 dimensions with scoring rubrics ]</div>
+
+  <div class="reveal">
+    <p class="label">Implementation</p>
+    <h2>Applying the Framework</h2>
+    <p>We piloted across 3 high-usage internal tools, redesigning specific interaction patterns — not entire UIs. Targeted interventions: progressive disclosure to reduce decision overload, persistent context panels to eliminate context-switching, and meaningful micro-feedback to close cognitive loops.</p>
+  </div>
+
+  <div class="cs-img-placeholder reveal">[ Before/after interaction patterns — progressive disclosure pilot ]</div>
+
+  <div class="reveal">
+    <p class="label">Outcome</p>
+    <h2>Results & Adoption</h2>
+    <p>After a 12-week rollout, error rates dropped 48%. Task completion improved 2.1×. Self-reported technostress decreased 40%. The framework was adopted as company-wide design standard and is now used across 14 internal tools. The VP of Engineering called it "the most impactful design initiative in 5 years."</p>
+  </div>
+
+  <div class="cs-tags reveal">
+    <span class="cs-tag-pill">Behavioral Psychology</span>
+    <span class="cs-tag-pill">Enterprise UX</span>
+    <span class="cs-tag-pill">Mixed Methods Research</span>
+    <span class="cs-tag-pill">Systems Thinking</span>
+    <span class="cs-tag-pill">Framework Design</span>
+  </div>
+
+</div>
+
+<div class="cs-next-section">
+  <h3>Next Case Study</h3>
+  <p>Workflow Optimization — 14 steps to 4</p>
+  <a href="case-study-3.html" class="btn btn-accent">View Next Case Study</a>
+</div>
+
+</body>
+</html>
