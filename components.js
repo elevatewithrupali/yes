@@ -31,7 +31,7 @@ const FOOTER_HTML = `
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <a href="index.html" class="logo"><span>R</span>upali</a>
+      <a href="index.html" class="logo"><img src="logo.svg" alt="Rupali Logo">
       <p>Senior Product Designer & Business Communication Coach helping you build better systems and communicate with precision.</p>
       <div class="footer-social">
         <a href="#" aria-label="LinkedIn">${svgLinkedIn()}</a>
