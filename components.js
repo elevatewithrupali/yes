@@ -31,7 +31,7 @@ const FOOTER_HTML = `
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <a href="index.html" class="logo"><img src="logo-footer.svg" alt="Rupali Logo">
+      <a href="index.html" class="logo"><img src="logo-footer.svg" alt="Rupali Logo"></a>
       <p>Senior Product Designer & Business Communication Coach helping you build better systems and communicate with precision.</p>
       <div class="footer-social">
         <a href="https://www.linkedin.com/in/rupali-dogra/" aria-label="Linkedin">
