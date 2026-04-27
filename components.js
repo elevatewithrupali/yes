@@ -4,7 +4,7 @@
 
 const HEADER_HTML = `
 <header>
-  <a href="index.html" class="logo"><span>R</span>upali</a>
+  <a href="index.html" class="logo"><img src="logo.svg" alt="Rupali Logo">
   <nav>
     <a href="about.html">About</a>
     <a href="index.html#work">Work</a>
