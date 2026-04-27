@@ -1,0 +1,31 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <title>Elevate with Rupali horizontal logo</title>
+  <desc>Flame icon on the left with centrally aligned wordmark on the right, closer spacing</desc>
+
+  <g transform="translate(150, 150)">
+    <circle cx="0" cy="0" r="118" fill="#1C1C1C"/>
+    <circle cx="0" cy="0" r="118" fill="none" stroke="#C8A96E" stroke-width="2"/>
+    <circle cx="0" cy="0" r="108" fill="none" stroke="#C8A96E" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 0 -80 C 28 -55, 58 -30, 58 10 C 58 50, 32 78, 0 88 C -32 78, -58 50, -58 10 C -58 -30, -28 -55, 0 -80 Z" fill="#C8A96E"/>
+    <path d="M 0 -38 C 14 -22, 28 -8, 28 12 C 28 34, 16 50, 0 56 C -16 50, -28 34, -28 12 C -28 -8, -14 -22, 0 -38 Z" fill="#1C1C1C"/>
+    <circle cx="0" cy="12" r="10" fill="#C8A96E"/>
+  </g>
+
+  <!-- All centered at x=500 -->
+  <text x="500" y="148"
+        text-anchor="middle"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="82" font-weight="400" letter-spacing="8"
+        fill="#C8A96E" opacity="0.8">ELEVATE</text>
+
+  <line x1="330" y1="175" x2="490" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
+  <circle cx="500" cy="175" r="5" fill="#C8A96E"/>
+  <line x1="510" y1="175" x2="670" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
+
+  <text x="500" y="222"
+        text-anchor="middle"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="38" font-weight="500" letter-spacing="14"
+        fill="#C8A96E">WITH RUPALI</text>
+
+</svg>
