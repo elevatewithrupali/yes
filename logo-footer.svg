@@ -11,18 +11,18 @@
     <circle cx="0" cy="12" r="10" fill="#C8A96E"/>
   </g>
 
-  <!-- All centered at x=500 -->
-  <text x="500" y="148"
+  <!-- All centered at x=550 -->
+  <text x="550" y="148"
         text-anchor="middle"
         font-family="Georgia,'Times New Roman',serif"
         font-size="82" font-weight="400" letter-spacing="8"
         fill="#C8A96E" opacity="0.8">ELEVATE</text>
 
-  <line x1="330" y1="175" x2="490" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
-  <circle cx="500" cy="175" r="5" fill="#C8A96E"/>
-  <line x1="510" y1="175" x2="670" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
+  <line x1="380" y1="175" x2="540" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
+  <circle cx="550" cy="175" r="5" fill="#C8A96E"/>
+  <line x1="560" y1="175" x2="720" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
 
-  <text x="500" y="222"
+  <text x="550" y="222"
         text-anchor="middle"
         font-family="Georgia,'Times New Roman',serif"
         font-size="38" font-weight="500" letter-spacing="14"
