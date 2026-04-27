@@ -11,21 +11,21 @@
     <circle cx="0" cy="12" r="10" fill="#C8A96E"/>
   </g>
 
-  <!-- All centered at x=440 -->
-  <text x="440" y="128"
+  <!-- All centered at x=500 -->
+  <text x="500" y="148"
         text-anchor="middle"
         font-family="Georgia,'Times New Roman',serif"
-        font-size="52" font-weight="400" letter-spacing="8"
-        fill="#1C1C1C" opacity="0.4">ELEVATE</text>
+        font-size="82" font-weight="400" letter-spacing="8"
+        fill="#1C1C1C" opacity="0.8">ELEVATE</text>
 
-  <line x1="330" y1="150" x2="413" y2="150" stroke="#C8A96E" stroke-width="0.8"/>
-  <circle cx="440" cy="150" r="3" fill="#C8A96E"/>
-  <line x1="467" y1="150" x2="550" y2="150" stroke="#C8A96E" stroke-width="0.8"/>
+  <line x1="330" y1="175" x2="490" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
+  <circle cx="500" cy="175" r="5" fill="#C8A96E"/>
+  <line x1="510" y1="175" x2="670" y2="175" stroke="#C8A96E" stroke-width="1.4"/>
 
-  <text x="440" y="182"
+  <text x="500" y="222"
         text-anchor="middle"
         font-family="Georgia,'Times New Roman',serif"
-        font-size="18" font-weight="400" letter-spacing="14"
+        font-size="38" font-weight="500" letter-spacing="14"
         fill="#1C1C1C">WITH RUPALI</text>
 
 </svg>
