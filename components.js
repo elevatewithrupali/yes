@@ -34,10 +34,10 @@ const FOOTER_HTML = `
       <a href="index.html" class="logo"><img src="logo-footer.svg" alt="Rupali Logo">
       <p>Senior Product Designer & Business Communication Coach helping you build better systems and communicate with precision.</p>
       <div class="footer-social">
-        <a href="#" aria-label="LinkedIn">${svgLinkedIn()}</a>
-        <a href="#" aria-label="Twitter">${svgTwitter()}</a>
-        <a href="#" aria-label="Dribbble">${svgDribbble()}</a>
-        <a href="#" aria-label="Instagram">${svgInstagram()}</a>
+        <a href="https://www.linkedin.com/in/rupali-dogra/" aria-label="LinkedIn">${svgLinkedIn()}</a>
+        <a href="https://www.instagram.com/elevatewithrupali/" aria-label="Instagram">${svgInstagram()}</a>
+        <a href="https://www.tiktok.com/@ElevateWithRupali" aria-label="TikTok">${svgTikTok()}</a>
+        <a href="https://www.youtube.com/@ElevateWithRupali" aria-label="Youtube">${svgYoutube()}</a>
       </div>
     </div>
     <div class="footer-col">
