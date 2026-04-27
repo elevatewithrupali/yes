@@ -34,10 +34,18 @@ const FOOTER_HTML = `
       <a href="index.html" class="logo"><img src="logo-footer.svg" alt="Rupali Logo">
       <p>Senior Product Designer & Business Communication Coach helping you build better systems and communicate with precision.</p>
       <div class="footer-social">
-        <a href="https://www.linkedin.com/in/rupali-dogra/" aria-label="LinkedIn">${svgLinkedIn()}</a>
-        <a href="https://www.instagram.com/elevatewithrupali/" aria-label="Instagram">${svgInstagram()}</a>
-        <a href="https://www.tiktok.com/@ElevateWithRupali" aria-label="TikTok">${svgTikTok()}</a>
-        <a href="https://www.youtube.com/@ElevateWithRupali" aria-label="Youtube">${svgYoutube()}</a>
+        <a href="https://www.linkedin.com/in/rupali-dogra/" aria-label="Linkedin">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://www.instagram.com/elevatewithrupali/" aria-label="Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@ElevateWithRupali" aria-label="TikTok">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@ElevateWithRupali" aria-label="YouTube">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="3"/><path d="M10 10l5 3.5-5 3.5V10z"/></svg>
+        </a>
       </div>
     </div>
     <div class="footer-col">
