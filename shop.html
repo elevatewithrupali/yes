@@ -15,6 +15,7 @@
 <body>
 
 <div class="page-hero">
+  <div class="page-hero-deco">Shop</div>
   <p class="label">Digital Products</p>
   <h1>Shop</h1>
   <p>Frameworks, guides, templates, and training systems — designed to help you think clearer and communicate better.</p>
@@ -24,7 +25,8 @@
 
   <!-- TABS -->
   <div class="shop-tabs">
-    <button class="tab-btn active" data-tab="communication">Communication Guides</button>
+    <button class="tab-btn active" data-tab="all">All Products</button>
+    <button class="tab-btn" data-tab="communication">Communication Guides</button>
     <button class="tab-btn" data-tab="interview">Interview Systems</button>
     <button class="tab-btn" data-tab="exam">Exam Prep</button>
     <button class="tab-btn" data-tab="cognitive">Cognitive Training</button>
@@ -33,8 +35,136 @@
     <button class="tab-btn" data-tab="free">Free Resources</button>
   </div>
 
+  <!-- TAB: All Products -->
+  <div class="tab-content active" id="tab-all">
+    <div class="shop-grid">
+
+      <div class="shop-card reveal">
+        <div class="shop-badge">Bestseller</div>
+        <div class="shop-card-img" style="background:var(--accent-light);"><div class="shop-card-icon">💬</div></div>
+        <div class="shop-card-body">
+          <h4>Executive Presence Playbook</h4>
+          <p>A complete guide to commanding attention, building credibility, and influencing decisions in any room.</p>
+          <div class="shop-price">$49 <span>/ PDF + templates</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Executive Presence Playbook">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-badge" style="background:var(--charcoal);">Top Rated</div>
+        <div class="shop-card-img" style="background:var(--accent-light);"><div class="shop-card-icon">🏆</div></div>
+        <div class="shop-card-body">
+          <h4>FAANG Interview Performance System</h4>
+          <p>A complete system for showing up at your best in product, design, and leadership interviews at top-tier companies.</p>
+          <div class="shop-price">$79 <span>/ Full system</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="FAANG Interview Performance System">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-badge">Flagship</div>
+        <div class="shop-card-img" style="background:var(--accent-light);"><div class="shop-card-icon">🎨</div></div>
+        <div class="shop-card-body">
+          <h4>Behavioral UX Masterclass</h4>
+          <p>A complete course on applying behavioral economics and cognitive science to product design. 6 modules, 30+ lessons.</p>
+          <div class="shop-price">$199 <span>/ Full course</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Behavioral UX Masterclass">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Lifetime access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal">
+        <div class="shop-card-img" style="background:#F0EBF8;"><div class="shop-card-icon">🎯</div></div>
+        <div class="shop-card-body">
+          <h4>The Articulation System</h4>
+          <p>Think on your feet. A framework for structuring your thoughts instantly in high-pressure conversations.</p>
+          <div class="shop-price">$39 <span>/ PDF guide</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="The Articulation System">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-badge">New</div>
+        <div class="shop-card-img" style="background:var(--accent-light);"><div class="shop-card-icon">🌐</div></div>
+        <div class="shop-card-body">
+          <h4>IELTS Speaking Performance Pack</h4>
+          <p>Not tutoring — performance training. Structured techniques to speak fluently and score band 7+ under pressure.</p>
+          <div class="shop-price">$59 <span>/ Full pack</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="IELTS Speaking Performance Pack">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-card-img" style="background:#F0EBF8;"><div class="shop-card-icon">🧠</div></div>
+        <div class="shop-card-body">
+          <h4>Structured Thinking Framework</h4>
+          <p>Train your brain to organize thoughts faster, reason more clearly, and communicate with precision under pressure.</p>
+          <div class="shop-price">$45 <span>/ Workbook PDF</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="Structured Thinking Framework">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal">
+        <div class="shop-card-img" style="background:var(--accent-light);"><div class="shop-card-icon">📄</div></div>
+        <div class="shop-card-body">
+          <h4>UX Case Study Figma Template</h4>
+          <p>A polished, recruiter-approved Figma template for presenting your UX work professionally.</p>
+          <div class="shop-price">$29 <span>/ Figma file</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="UX Case Study Figma Template">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant access</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-1">
+        <div class="shop-card-img" style="background:#EAF4F0;"><div class="shop-card-icon">🍁</div></div>
+        <div class="shop-card-body">
+          <h4>CELPIP Speaking Strategy Guide</h4>
+          <p>Master all 8 CELPIP speaking tasks with structured frameworks designed around how the exam actually scores you.</p>
+          <div class="shop-price">$49 <span>/ Guide + practice tasks</span></div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-primary" data-shop-product="CELPIP Speaking Strategy Guide">Get Now</button>
+          <span style="font-size:0.75rem;color:var(--light-mid);">Instant download</span>
+        </div>
+      </div>
+
+      <div class="shop-card reveal reveal-delay-2">
+        <div class="shop-badge" style="background:var(--charcoal);">Free</div>
+        <div class="shop-card-img" style="background:var(--cream);"><div class="shop-card-icon">🎁</div></div>
+        <div class="shop-card-body">
+          <h4>5 UX Design Principles Cheatsheet</h4>
+          <p>A one-page reference card with the 5 cognitive principles every product designer should know by heart.</p>
+          <div class="shop-price">Free</div>
+        </div>
+        <div class="shop-card-footer">
+          <button class="btn btn-outline" data-shop-product="5 UX Design Principles Cheatsheet">Download Free</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <!-- TAB: Communication Guides -->
-  <div class="tab-content active" id="tab-communication">
+  <div class="tab-content" id="tab-communication">
     <div class="shop-grid">
 
       <div class="shop-card reveal">
